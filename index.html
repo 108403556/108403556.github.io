@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title> 108403556 CV</title>
+        <script>
+            function myFunction1(){
+                document.getElementById("btn1").innerHTML = "Welcome! This is my profile.";
+            }
+        </script>
+        <style>
+            body {background-color: lightcyan;}
+            ::selection { color: white; background: orangered;}
+            table {background-color: lightgreen;}
+            a:hover {color: orange;}
+        </style>
+        <!-- CSS1: make bg of body light cyan -->
+        <!-- CSS2: make selection of text into color white and backgroung color orangered -->
+        <!-- CSS3: make all table in body background color to be -->
+        <!-- CSS4: make a link go orage when hover over it-->
+    </head>
+    <body>
+        <div>
+            <center><h1>Dan's CV for WP Final</h1></center>
+            <hr>
+            <button type="button" onclick="myFunction1()">Click to Reveal</button>
+            <p> <b id="btn1"></b> </p>
+
+            <h3>About Me</h3>
+            <p>A sophomore who is suffering more (ahem...) from the devil that's called Management of Information System.</p>
+
+            <center>
+                <table border="2">
+                    <caption><h3>My History on Coding and stuff</h3></caption>
+    
+                    <tr>
+                        <th>Computer Language Name</th>
+                        <th>type</th>
+                        <th>Year start</th>
+                        <th>Time Learnt</th>
+                        <th>Discription</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td><a href="https://en.wikipedia.org/wiki/C_(programming_language)">C++</a></td>
+                        <td>pragramming</td>
+                        <td>2016</td>
+                        <td>6 months</td>
+                        <td>Learnt in a special curriculum in grade 10 for a creation of a simple game using ren'py.</td>
+                        <td>Lost in time due to lack of usage</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://en.wikipedia.org/wiki/C%2B%2B">C</a></td>
+                        <td>programming</td>
+                        <td>2019</td>
+                        <td>6 months</td>
+                        <td>Learnt in the first semester of freshman.</td>
+                        <td>Lost in time due to lack of usage</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a></td>
+                        <td>programming</td>
+                        <td>2019</td>
+                        <td>12 months</td>
+                        <td>Learnt in the first semester of freshman as intro and in the second semester of sophomore as machine learning.</td>
+                        <td>Capable of using</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a></td>
+                        <td>programming</td>
+                        <td>2020</td>
+                        <td>8 months</td>
+                        <td>Learnt in the second semester of freshman(passed) and in the first semester of sophomore(dropped).</td>
+                        <td>Still capable of using</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://en.wikipedia.org/wiki/Pseudocode">Pseudocode</a></td>
+                        <td>plain</td>
+                        <td>2020</td>
+                        <td>6 months</td>
+                        <td>Learnt in the first semester of sophomore.</td>
+                        <td>Still capable of using, I guess</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></td>
+                        <td>markup</td>
+                        <td>2021</td>
+                        <td>6 months</td>
+                        <td>Learnt in the second semester of sophomore.</td>
+                        <td>I'm writing this in html, so...</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></td>
+                        <td>style</td>
+                        <td>2021</td>
+                        <td>6 months</td>
+                        <td>Learnt in the second semester of sophomore.</td>
+                        <td>Capable of using</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://en.wikipedia.org/wiki/JavaScript">Javascript</a></td>
+                        <td>scripting</td>
+                        <td>2021</td>
+                        <td>2 months</td>
+                        <td>Learnt in the second semester of sophomore.</td>
+                        <td>Capable of using</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://en.wikipedia.org/wiki/PHP">PHP</a></td>
+                        <td>scripting</td>
+                        <td>2021</td>
+                        <td>2 months</td>
+                        <td>Learnt in the second semester of sophomore.</td>
+                        <td>I'm not sure</td>
+                    </tr>
+                </table>
+            </center>
+
+            <p>OK, let's end cv this in a nostalgic sentence written in php.</p>
+            <?php 
+                echo '<p>Hello World.</p>';
+            ?>
+        </div>
+    </body>
+</html>
